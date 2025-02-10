@@ -1,7 +1,6 @@
 const express = require('express')
 const app = express()
 const port = 3000
-//LdCcOxKGyZjto2en
 const cors=require("cors");
 const {posttodo,update,gettodo}=require('./controller.js')
 const {connect}=require('./util/db.js')
